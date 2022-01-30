@@ -1,0 +1,196 @@
+.container{
+    border: 1px solid black;
+    width: 800px;
+    height: 200px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    
+}
+.header{
+    background-color: #333;
+    color: white ;
+    /* height: 50px; */
+    display: flex;
+    /* position: fixe45;iop l0d; */
+    width: 800px;
+    overflow: hidden;
+    top: 8px;
+}
+.title-icon{
+    /* float: left; */
+    margin-left: 8px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+span{
+    margin-left: 8px;
+    font-size: 20px;
+}
+.options{
+    display: flex;  
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+    cursor: pointer;
+}
+.options .fas{
+    margin-right: 25px;
+}
+.content{
+    margin-top: 30px;
+    padding: 8px;
+}
+/* short header style */
+.header-short{
+    background-color: #333;
+    color: white ;
+    height: 50px;
+    display: flex;
+    /* position: fixed; */
+    width: 800px;
+    overflow: hidden;
+}
+.options-short{
+    display: flex;  
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+    cursor: pointer;
+}
+.content-short{
+    margin: 1px;
+}
+
+/* Badge style */
+
+.container-badge{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 350px;
+}
+.item-badge{
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    margin-left: 9px;
+
+}
+.round-badge{
+    background-color: blue;
+    border-radius: 50%;
+    text-align: center;
+    padding: 5px;
+}
+.small-badge{
+    position: relative;
+    top:-17px;
+    left: -14px;
+}
+.large-badge{
+    position: relative;
+    top:-25px;
+    left: -15px;
+    padding:13px;
+}
+button{
+    background-color: cornsilk;
+}
+.button-badge{
+    position: relative;
+    top: -25px;
+    right: -3px;
+}
+.toggle-badge{
+    position: relative;
+    top: -20px;
+    left: -20px;
+}
+.icon-badge{
+    position: relative;
+    top: -20px;
+    left: -20px;
+}
+
+/* Snack bar style */
+
+.container-snackbar{
+    border: 1px solid black;
+    height: 200px;
+}
+.snack-bar{
+    margin: 8px;
+}
+.output{
+    background-color: #777;
+    color: white;
+    width: 250px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+}
+button{
+    cursor: pointer;
+    background-color: rgb(219, 163, 219)    ;
+}
+.button-retry{
+    height: 20px;
+}
+.button-x{
+    height: 20px;
+}
+
+/* Tab component styles */
+.container-tab{
+    border: 1px solid black;
+    height: 100px;
+}
+.tab-item{
+    display: flex;
+    justify-content: flex-start;
+    margin: 5px;
+    height: 30px;
+}
+.tab-item button {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    opacity: 0.5;
+    
+}
+.tab-item button:hover{
+    opacity: 1.0;
+}
+
+
+/*Dialog box style */
+.container-dialogbox{
+  border: 1px solid black; 
+  height: 200px; 
+  padding: 10px;
+}
+.output-dialogbox{
+    border: 0.5px solid black;
+    margin-top: 10px;
+    width: 180px;
+    height: 130px;
+    background-color: rgb(248, 246, 242);
+    visibility: hidden;
+}
+.dialogbox-content{
+    padding-left: 10px;
+}
+.dialogbox-button{
+    display: flex;
+    justify-content: flex-end;
+    padding-right:8px ;
+    background-color: transparent;
+}
+.action2{
+    margin-left: 4px;
+}
